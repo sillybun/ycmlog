@@ -1,0 +1,577 @@
+2018-05-22 23:16:09,562 - DEBUG - received /completions request
+2018-05-22 23:16:09,636 - DEBUG - received /completions request
+2018-05-22 23:16:09,699 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numba/__init__.py
+2018-05-22 23:16:09,723 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numba/errors.py
+2018-05-22 23:16:09,726 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numba/types/__init__.py
+2018-05-22 23:16:09,738 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numba/types/abstract.py
+2018-05-22 23:16:09,784 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numba/types/containers.py
+2018-05-22 23:16:09,795 - DEBUG - received /completions request
+2018-05-22 23:16:09,802 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numba/types/common.py
+2018-05-22 23:16:09,825 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numba/types/functions.py
+2018-05-22 23:16:09,840 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numba/types/iterators.py
+2018-05-22 23:16:09,861 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numba/types/misc.py
+2018-05-22 23:16:09,887 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numba/types/npytypes.py
+2018-05-22 23:16:09,909 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numba/types/scalars.py
+2018-05-22 23:16:09,940 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numba/utils.py
+2018-05-22 23:16:09,944 - DEBUG - received /completions request
+2018-05-22 23:16:09,951 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/PIL/__init__.py
+2018-05-22 23:16:10,014 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/PIL/Image.py
+2018-05-22 23:16:10,031 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numba/decorators.py
+2018-05-22 23:16:10,039 - DEBUG - pickle loaded: /Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/kernel.py
+2018-05-22 23:16:10,059 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/scipy/__init__.py
+2018-05-22 23:16:10,076 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/scipy/misc/__init__.py
+2018-05-22 23:16:10,083 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/numpy/__init__.py
+2018-05-22 23:16:10,127 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/matplotlib/__init__.py
+2018-05-22 23:16:10,207 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/site-packages/matplotlib/pyplot.py
+2018-05-22 23:16:10,214 - DEBUG - pickle loaded: /Users/zhangyiteng/miniconda3/lib/python3.6/zytutil.py
+2018-05-22 23:16:10,218 - DEBUG - diff parser start
+2018-05-22 23:16:10,218 - DEBUG - diff parser calculated
+2018-05-22 23:16:10,218 - DEBUG - received /completions request
+2018-05-22 23:16:10,219 - DEBUG - diff: line_lengths old: 47, new: 47
+2018-05-22 23:16:10,219 - DEBUG - diff equal old[1:22] new[1:22]
+2018-05-22 23:16:10,219 - DEBUG - diff actually copy 1 to 22
+2018-05-22 23:16:10,219 - DEBUG - diff replace old[23:23] new[23:23]
+2018-05-22 23:16:10,219 - DEBUG - parse_part from 23 to 23 (to 23 in part parser)
+2018-05-22 23:16:10,220 - DEBUG - diff equal old[24:47] new[24:47]
+2018-05-22 23:16:10,220 - DEBUG - diff actually copy 24 to 42
+2018-05-22 23:16:10,221 - DEBUG - parse_part from 43 to 46 (to 46 in part parser)
+2018-05-22 23:16:10,221 - DEBUG - diff parser end
+2018-05-22 23:16:10,278 - DEBUG - diff parser start
+2018-05-22 23:16:10,278 - DEBUG - diff parser calculated
+2018-05-22 23:16:10,278 - DEBUG - diff: line_lengths old: 47, new: 47
+2018-05-22 23:16:10,279 - DEBUG - diff equal old[1:22] new[1:22]
+2018-05-22 23:16:10,279 - DEBUG - diff actually copy 1 to 22
+2018-05-22 23:16:10,279 - DEBUG - diff replace old[23:23] new[23:23]
+2018-05-22 23:16:10,279 - DEBUG - parse_part from 23 to 23 (to 23 in part parser)
+2018-05-22 23:16:10,279 - DEBUG - diff equal old[24:47] new[24:47]
+2018-05-22 23:16:10,280 - DEBUG - diff actually copy 24 to 42
+2018-05-22 23:16:10,281 - DEBUG - parse_part from 43 to 46 (to 46 in part parser)
+2018-05-22 23:16:10,281 - DEBUG - diff parser end
+2018-05-22 23:16:10,345 - DEBUG - diff parser start
+2018-05-22 23:16:10,345 - DEBUG - diff parser calculated
+2018-05-22 23:16:10,346 - DEBUG - diff: line_lengths old: 47, new: 47
+2018-05-22 23:16:10,346 - DEBUG - diff equal old[1:22] new[1:22]
+2018-05-22 23:16:10,346 - DEBUG - diff actually copy 1 to 22
+2018-05-22 23:16:10,346 - DEBUG - diff replace old[23:23] new[23:23]
+2018-05-22 23:16:10,346 - DEBUG - parse_part from 23 to 23 (to 23 in part parser)
+2018-05-22 23:16:10,347 - DEBUG - diff equal old[24:47] new[24:47]
+2018-05-22 23:16:10,347 - DEBUG - diff actually copy 24 to 42
+2018-05-22 23:16:10,348 - DEBUG - parse_part from 43 to 46 (to 46 in part parser)
+2018-05-22 23:16:10,348 - DEBUG - diff parser end
+2018-05-22 23:16:10,400 - DEBUG - received /completions request
+2018-05-22 23:16:10,411 - DEBUG - diff parser start
+2018-05-22 23:16:10,411 - DEBUG - diff parser calculated
+2018-05-22 23:16:10,411 - DEBUG - diff: line_lengths old: 47, new: 47
+2018-05-22 23:16:10,411 - DEBUG - diff equal old[1:22] new[1:22]
+2018-05-22 23:16:10,412 - DEBUG - diff actually copy 1 to 22
+2018-05-22 23:16:10,412 - DEBUG - diff replace old[23:23] new[23:23]
+2018-05-22 23:16:10,412 - DEBUG - parse_part from 23 to 23 (to 23 in part parser)
+2018-05-22 23:16:10,413 - DEBUG - diff equal old[24:47] new[24:47]
+2018-05-22 23:16:10,413 - DEBUG - diff actually copy 24 to 42
+2018-05-22 23:16:10,414 - DEBUG - parse_part from 43 to 46 (to 46 in part parser)
+2018-05-22 23:16:10,414 - DEBUG - diff parser end
+2018-05-22 23:16:10,517 - DEBUG - diff parser start
+2018-05-22 23:16:10,517 - DEBUG - diff parser calculated
+2018-05-22 23:16:10,518 - DEBUG - diff: line_lengths old: 47, new: 47
+2018-05-22 23:16:10,518 - DEBUG - diff equal old[1:22] new[1:22]
+2018-05-22 23:16:10,518 - DEBUG - diff actually copy 1 to 22
+2018-05-22 23:16:10,518 - DEBUG - diff replace old[23:23] new[23:23]
+2018-05-22 23:16:10,518 - DEBUG - parse_part from 23 to 23 (to 23 in part parser)
+2018-05-22 23:16:10,519 - DEBUG - diff equal old[24:47] new[24:47]
+2018-05-22 23:16:10,519 - DEBUG - diff actually copy 24 to 42
+2018-05-22 23:16:10,520 - DEBUG - parse_part from 43 to 46 (to 46 in part parser)
+2018-05-22 23:16:10,520 - DEBUG - diff parser end
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/cache.py", line 116, in wrapper
+    return dct[key]
+KeyError: ((), frozenset({('fast', True)}))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/bottle/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/bottle/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/jedihttp/hmac_plugin.py", line 55, in wrapper
+    body = callback(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/jedihttp/watchdog_plugin.py", line 84, in wrapper
+    return callback(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/jedihttp/handlers.py", line 66, in completions
+    response = _format_completions(script.completions())
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/jedihttp/handlers.py", line 155, in _format_completions
+    } for completion in completions]
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/jedihttp/handlers.py", line 155, in <listcomp>
+    } for completion in completions]
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/api/classes.py", line 461, in docstring
+    return super(Completion, self).docstring(raw=raw, fast=fast)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/api/classes.py", line 257, in docstring
+    return _Help(self._name).docstring(fast=fast, raw=raw)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/api/classes.py", line 675, in docstring
+    for context in self._get_contexts(fast=fast):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/cache.py", line 118, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/api/classes.py", line 665, in _get_contexts
+    return self._name.infer()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/filters.py", line 100, in infer
+    return tree_name_to_contexts(self.parent_context.evaluator, self.parent_context, self.tree_name)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 487, in tree_name_to_contexts
+    types = _apply_decorators(context, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 525, in _apply_decorators
+    dec_values = eval_trailer(context, dec_values, trailer)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 153, in eval_trailer
+    return base_contexts.execute(args)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/common/context.py", line 65, in mapper
+    for context in self._set
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/common/context.py", line 34, in from_sets
+    sets = list(sets)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/common/context.py", line 65, in <genexpr>
+    for context in self._set
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 52, in execute
+    context_set = func(arguments)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/context/function.py", line 80, in py__call__
+    return self.infer_function_execution(function_execution)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/context/function.py", line 70, in infer_function_execution
+    return function_execution.get_return_values()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/recursion.py", line 84, in wrapper
+    result = func(execution, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/context/function.py", line 136, in get_return_values
+    check = flow_analysis.reachability_check(self, funcdef, r)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/flow_analysis.py", line 76, in reachability_check
+    return _break_check(context, context_scope, first_flow_scope, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/flow_analysis.py", line 91, in _break_check
+    reachable = _check_if(context, flow_node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/flow_analysis.py", line 107, in _check_if
+    types = context.eval_node(node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 174, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 116, in eval_node
+    return eval_or_test(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 280, in eval_or_test
+    types = context.eval_node(next(iterator))
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 174, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 58, in eval_node
+    return eval_atom(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 172, in eval_atom
+    search_global=True
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/_compatibility.py", line 204, in <lambda>
+    return lambda *args, **kwargs: self.func(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 140, in py__getattribute__
+    return f.find(filters, attribute_lookup=not search_global)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/finder.py", line 56, in find
+    names = self.filter_name(filters)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/finder.py", line 121, in filter_name
+    names = filter.get(self._string_name)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/filters.py", line 170, in get
+    return self._convert_names(self._filter(names))
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/filters.py", line 202, in _filter
+    return list(self._check_flows(names))
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/filters.py", line 216, in _check_flows
+    self._node_context, self._parser_scope, name, self._origin_scope
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/flow_analysis.py", line 76, in reachability_check
+    return _break_check(context, context_scope, first_flow_scope, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/flow_analysis.py", line 84, in _break_check
+    reachable = _check_if(context, check_node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/flow_analysis.py", line 107, in _check_if
+    types = context.eval_node(node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 174, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 116, in eval_node
+    return eval_or_test(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 280, in eval_or_test
+    types = context.eval_node(next(iterator))
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 174, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 58, in eval_node
+    return eval_atom(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 172, in eval_atom
+    search_global=True
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/_compatibility.py", line 204, in <lambda>
+    return lambda *args, **kwargs: self.func(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 140, in py__getattribute__
+    return f.find(filters, attribute_lookup=not search_global)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/finder.py", line 64, in find
+    types = self._names_to_types(names, attribute_lookup)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/finder.py", line 157, in _names_to_types
+    contexts = ContextSet.from_sets(name.infer() for name in names)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/common/context.py", line 34, in from_sets
+    sets = list(sets)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/finder.py", line 157, in <genexpr>
+    contexts = ContextSet.from_sets(name.infer() for name in names)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/filters.py", line 118, in infer
+    return self.get_param().infer()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/param.py", line 34, in infer
+    return self._lazy_context.infer()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/lazy_context.py", line 46, in infer
+    return self._context.eval_node(self.data)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 179, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 84, in eval_node
+    context_set = eval_trailer(context, context_set, trailer)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 140, in eval_trailer
+    eval_subscript_list(context.evaluator, context, node),
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 588, in eval_subscript_list
+    return context.eval_node(index)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 179, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 116, in eval_node
+    return eval_or_test(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 280, in eval_or_test
+    types = context.eval_node(next(iterator))
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 179, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 103, in eval_node
+    assert element.value in ('.', '...')
+AssertionError
+2018-05-22 23:16:10,701 - DEBUG - received /completions request
+2018-05-22 23:16:10,702 - DEBUG - diff parser start
+2018-05-22 23:16:10,702 - DEBUG - diff parser calculated
+2018-05-22 23:16:10,702 - DEBUG - diff: line_lengths old: 47, new: 47
+2018-05-22 23:16:10,702 - DEBUG - diff equal old[1:22] new[1:22]
+2018-05-22 23:16:10,702 - DEBUG - diff actually copy 1 to 22
+2018-05-22 23:16:10,702 - DEBUG - diff replace old[23:23] new[23:23]
+2018-05-22 23:16:10,703 - DEBUG - parse_part from 23 to 23 (to 23 in part parser)
+2018-05-22 23:16:10,703 - DEBUG - diff equal old[24:47] new[24:47]
+2018-05-22 23:16:10,703 - DEBUG - diff actually copy 24 to 42
+2018-05-22 23:16:10,704 - DEBUG - parse_part from 43 to 46 (to 46 in part parser)
+2018-05-22 23:16:10,704 - DEBUG - diff parser end
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/cache.py", line 116, in wrapper
+    return dct[key]
+KeyError: ((), frozenset({('fast', True)}))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/bottle/bottle.py", line 862, in _handle
+    return route.call(**args)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/bottle/bottle.py", line 1732, in wrapper
+    rv = callback(*a, **ka)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/jedihttp/hmac_plugin.py", line 55, in wrapper
+    body = callback(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/jedihttp/watchdog_plugin.py", line 84, in wrapper
+    return callback(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/jedihttp/handlers.py", line 66, in completions
+    response = _format_completions(script.completions())
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/jedihttp/handlers.py", line 155, in _format_completions
+    } for completion in completions]
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/jedihttp/handlers.py", line 155, in <listcomp>
+    } for completion in completions]
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/api/classes.py", line 461, in docstring
+    return super(Completion, self).docstring(raw=raw, fast=fast)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/api/classes.py", line 257, in docstring
+    return _Help(self._name).docstring(fast=fast, raw=raw)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/api/classes.py", line 675, in docstring
+    for context in self._get_contexts(fast=fast):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/cache.py", line 118, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/api/classes.py", line 665, in _get_contexts
+    return self._name.infer()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/filters.py", line 100, in infer
+    return tree_name_to_contexts(self.parent_context.evaluator, self.parent_context, self.tree_name)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 487, in tree_name_to_contexts
+    types = _apply_decorators(context, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 525, in _apply_decorators
+    dec_values = eval_trailer(context, dec_values, trailer)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 153, in eval_trailer
+    return base_contexts.execute(args)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/common/context.py", line 65, in mapper
+    for context in self._set
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/common/context.py", line 34, in from_sets
+    sets = list(sets)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/common/context.py", line 65, in <genexpr>
+    for context in self._set
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 52, in execute
+    context_set = func(arguments)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/context/function.py", line 80, in py__call__
+    return self.infer_function_execution(function_execution)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/context/function.py", line 70, in infer_function_execution
+    return function_execution.get_return_values()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/recursion.py", line 84, in wrapper
+    result = func(execution, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/context/function.py", line 136, in get_return_values
+    check = flow_analysis.reachability_check(self, funcdef, r)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/flow_analysis.py", line 76, in reachability_check
+    return _break_check(context, context_scope, first_flow_scope, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/flow_analysis.py", line 91, in _break_check
+    reachable = _check_if(context, flow_node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/flow_analysis.py", line 107, in _check_if
+    types = context.eval_node(node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 174, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 116, in eval_node
+    return eval_or_test(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 280, in eval_or_test
+    types = context.eval_node(next(iterator))
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 174, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 58, in eval_node
+    return eval_atom(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 172, in eval_atom
+    search_global=True
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/_compatibility.py", line 204, in <lambda>
+    return lambda *args, **kwargs: self.func(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 140, in py__getattribute__
+    return f.find(filters, attribute_lookup=not search_global)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/finder.py", line 56, in find
+    names = self.filter_name(filters)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/finder.py", line 121, in filter_name
+    names = filter.get(self._string_name)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/filters.py", line 170, in get
+    return self._convert_names(self._filter(names))
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/filters.py", line 202, in _filter
+    return list(self._check_flows(names))
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/filters.py", line 216, in _check_flows
+    self._node_context, self._parser_scope, name, self._origin_scope
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/flow_analysis.py", line 76, in reachability_check
+    return _break_check(context, context_scope, first_flow_scope, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/flow_analysis.py", line 84, in _break_check
+    reachable = _check_if(context, check_node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/flow_analysis.py", line 107, in _check_if
+    types = context.eval_node(node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 174, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 116, in eval_node
+    return eval_or_test(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 280, in eval_or_test
+    types = context.eval_node(next(iterator))
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 174, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 58, in eval_node
+    return eval_atom(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 172, in eval_atom
+    search_global=True
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/_compatibility.py", line 204, in <lambda>
+    return lambda *args, **kwargs: self.func(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 140, in py__getattribute__
+    return f.find(filters, attribute_lookup=not search_global)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/finder.py", line 64, in find
+    types = self._names_to_types(names, attribute_lookup)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/finder.py", line 157, in _names_to_types
+    contexts = ContextSet.from_sets(name.infer() for name in names)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/common/context.py", line 34, in from_sets
+    sets = list(sets)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/finder.py", line 157, in <genexpr>
+    contexts = ContextSet.from_sets(name.infer() for name in names)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/filters.py", line 118, in infer
+    return self.get_param().infer()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/param.py", line 34, in infer
+    return self._lazy_context.infer()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/lazy_context.py", line 46, in infer
+    return self._context.eval_node(self.data)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 179, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 84, in eval_node
+    context_set = eval_trailer(context, context_set, trailer)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 140, in eval_trailer
+    eval_subscript_list(context.evaluator, context, node),
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 588, in eval_subscript_list
+    return context.eval_node(index)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 179, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 116, in eval_node
+    return eval_or_test(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 280, in eval_or_test
+    types = context.eval_node(next(iterator))
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/base_context.py", line 123, in eval_node
+    return self.evaluator.eval_element(self, node)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 179, in eval_element
+    return self._eval_element_if_evaluated(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 191, in _eval_element_if_evaluated
+    return self._eval_element_cached(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/cache.py", line 40, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/__init__.py", line 195, in _eval_element_cached
+    return eval_node(context, element)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/debug.py", line 79, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 46, in wrapper
+    return func(context, *args, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/JediHTTP/vendor/jedi/jedi/evaluate/syntax_tree.py", line 103, in eval_node
+    assert element.value in ('.', '...')
+AssertionError
+2018-05-22 23:16:10,876 - DEBUG - received /completions request
+2018-05-22 23:16:10,877 - DEBUG - diff parser start
+2018-05-22 23:16:10,877 - DEBUG - diff parser calculated
+2018-05-22 23:16:10,877 - DEBUG - diff: line_lengths old: 47, new: 47
+2018-05-22 23:16:10,877 - DEBUG - diff equal old[1:22] new[1:22]
+2018-05-22 23:16:10,877 - DEBUG - diff actually copy 1 to 22
+2018-05-22 23:16:10,877 - DEBUG - diff replace old[23:23] new[23:23]
+2018-05-22 23:16:10,878 - DEBUG - parse_part from 23 to 23 (to 23 in part parser)
+2018-05-22 23:16:10,878 - DEBUG - diff equal old[24:47] new[24:47]
+2018-05-22 23:16:10,878 - DEBUG - diff actually copy 24 to 42
+2018-05-22 23:16:10,879 - DEBUG - parse_part from 43 to 46 (to 46 in part parser)
+2018-05-22 23:16:10,879 - DEBUG - diff parser end
