@@ -1,0 +1,167 @@
+2018-05-22 22:40:59,892 - DEBUG - Global extra conf not loaded or no function YcmCorePreload
+2018-05-22 22:40:59,958 - INFO - Received ready request
+2018-05-22 22:40:59,979 - INFO - Received event notification
+2018-05-22 22:40:59,979 - DEBUG - Event name: BufferVisit
+2018-05-22 22:40:59,982 - INFO - Received event notification
+2018-05-22 22:40:59,982 - DEBUG - Event name: FileReadyToParse
+2018-05-22 22:40:59,982 - INFO - Adding buffer identifiers for file: /Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/4.py
+2018-05-22 22:40:59,982 - INFO - Starting JediHTTP server
+2018-05-22 22:40:59,985 - INFO - using port 55297
+2018-05-22 22:41:00,083 - INFO - Received filetype completion available request
+2018-05-22 22:41:02,233 - INFO - Received event notification
+2018-05-22 22:41:02,233 - DEBUG - Event name: CurrentIdentifierFinished
+2018-05-22 22:41:02,234 - INFO - Adding ONE buffer identifier for file: /Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/4.py
+2018-05-22 22:41:02,481 - INFO - Received completion request
+2018-05-22 22:41:02,482 - DEBUG - Using filetype completion: False
+2018-05-22 22:41:02,626 - INFO - Received completion request
+2018-05-22 22:41:02,627 - DEBUG - Using filetype completion: True
+2018-05-22 22:41:02,628 - DEBUG - Making JediHTTP request: POST b'http://127.0.0.1:55297/completions' {u'content-type': u'application/json', u'x-jedihttp-hmac': 'tyG+qvDl4wfiieK2ElcHvTwouUIeykrU92VYGrvlRcM='} b'{"source": "import numpy as np\nimport PIL\nfrom matplotlib import pyplot as plt\nfrom PIL import Image\nfrom scipy import misc\n\nimport numba as nb\nfrom numba import f8, int64, jit\nfrom zytutil import timethis\nimport kernel\nimport zytutil\n\ndef main():\n    sharp_kernel = np.zeros((3, 3))\n    gauss_filter = np.ones((5, 5))\n    gauss_filter[1, 1] = 3\n    gauss_filter = gauss_filter / gauss_filter.sum()\n    sharp_kernel[1, 1] = -4\n    sharp_kernel[1, 0] = 1\n    sharp_kernel[1, 2] = 1\n    sharp_kernel[0, 1] = 1\n    sharp_kernel[2, 1] = 1\n    ke\n\n    image = Image.open('test.jpg')\n    image = np.array(image.convert('L'))\n    Image.fromarray(image.astype(np.uint8)).save('street.jpg')\n    image = image / 255.0\n    # plt.subplot(121)\n    # plt.imshow(image, cmap='gray')\n    # plt.subplot(122)\n    newimage = kernel.filter(image, sharp_kernel)\n    newimage = np.clip(image - 2 * newimage, 0, 1)\n    diffimage = np.abs(newimage - image)\n    newimage *= 255\n    # plt.imshow(np.clip(image - newimage, 0, 1), cmap='gray')\n    Image.fromarray(newimage.astype(np.uint8)).save('sharpstreet.jpg')\n    diffimage -= diffimage.min()\n    diffimage /= diffimage.max()\n    diffimage = (1 - diffimage) * 255\n    Image.fromarray(diffimage.astype(np.uint8)).save('diffstreet.jpg')\n    kernel.filter\n\n\nif __name__ == \"__main__\":\n    main()\n", "line": 23, "source_path": "/Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/4.py", "col": 4}'
+2018-05-22 22:41:02,633 - INFO - Starting new HTTP connection (1): 127.0.0.1
+2018-05-22 22:41:02,700 - INFO - Received completion request
+2018-05-22 22:41:02,700 - DEBUG - Using filetype completion: True
+2018-05-22 22:41:02,701 - DEBUG - Making JediHTTP request: POST b'http://127.0.0.1:55297/completions' {u'content-type': u'application/json', u'x-jedihttp-hmac': 'mYp/km4FVOYMvR0BilVNAqNX7NYkVxe9AOr3E/xMkwU='} b'{"source": "import numpy as np\nimport PIL\nfrom matplotlib import pyplot as plt\nfrom PIL import Image\nfrom scipy import misc\n\nimport numba as nb\nfrom numba import f8, int64, jit\nfrom zytutil import timethis\nimport kernel\nimport zytutil\n\ndef main():\n    sharp_kernel = np.zeros((3, 3))\n    gauss_filter = np.ones((5, 5))\n    gauss_filter[1, 1] = 3\n    gauss_filter = gauss_filter / gauss_filter.sum()\n    sharp_kernel[1, 1] = -4\n    sharp_kernel[1, 0] = 1\n    sharp_kernel[1, 2] = 1\n    sharp_kernel[0, 1] = 1\n    sharp_kernel[2, 1] = 1\n    ker\n\n    image = Image.open('test.jpg')\n    image = np.array(image.convert('L'))\n    Image.fromarray(image.astype(np.uint8)).save('street.jpg')\n    image = image / 255.0\n    # plt.subplot(121)\n    # plt.imshow(image, cmap='gray')\n    # plt.subplot(122)\n    newimage = kernel.filter(image, sharp_kernel)\n    newimage = np.clip(image - 2 * newimage, 0, 1)\n    diffimage = np.abs(newimage - image)\n    newimage *= 255\n    # plt.imshow(np.clip(image - newimage, 0, 1), cmap='gray')\n    Image.fromarray(newimage.astype(np.uint8)).save('sharpstreet.jpg')\n    diffimage -= diffimage.min()\n    diffimage /= diffimage.max()\n    diffimage = (1 - diffimage) * 255\n    Image.fromarray(diffimage.astype(np.uint8)).save('diffstreet.jpg')\n    kernel.filter\n\n\nif __name__ == \"__main__\":\n    main()\n", "line": 23, "source_path": "/Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/4.py", "col": 4}'
+2018-05-22 22:41:02,702 - INFO - Starting new HTTP connection (1): 127.0.0.1
+2018-05-22 22:41:02,885 - INFO - Received completion request
+2018-05-22 22:41:02,885 - DEBUG - Using filetype completion: True
+2018-05-22 22:41:02,886 - DEBUG - Making JediHTTP request: POST b'http://127.0.0.1:55297/completions' {u'content-type': u'application/json', u'x-jedihttp-hmac': 'ek/hN9QwAUNYofPAea/5QH3lQ5Xe/JPe/wgD2FJJ/Vk='} b'{"source": "import numpy as np\nimport PIL\nfrom matplotlib import pyplot as plt\nfrom PIL import Image\nfrom scipy import misc\n\nimport numba as nb\nfrom numba import f8, int64, jit\nfrom zytutil import timethis\nimport kernel\nimport zytutil\n\ndef main():\n    sharp_kernel = np.zeros((3, 3))\n    gauss_filter = np.ones((5, 5))\n    gauss_filter[1, 1] = 3\n    gauss_filter = gauss_filter / gauss_filter.sum()\n    sharp_kernel[1, 1] = -4\n    sharp_kernel[1, 0] = 1\n    sharp_kernel[1, 2] = 1\n    sharp_kernel[0, 1] = 1\n    sharp_kernel[2, 1] = 1\n    kern\n\n    image = Image.open('test.jpg')\n    image = np.array(image.convert('L'))\n    Image.fromarray(image.astype(np.uint8)).save('street.jpg')\n    image = image / 255.0\n    # plt.subplot(121)\n    # plt.imshow(image, cmap='gray')\n    # plt.subplot(122)\n    newimage = kernel.filter(image, sharp_kernel)\n    newimage = np.clip(image - 2 * newimage, 0, 1)\n    diffimage = np.abs(newimage - image)\n    newimage *= 255\n    # plt.imshow(np.clip(image - newimage, 0, 1), cmap='gray')\n    Image.fromarray(newimage.astype(np.uint8)).save('sharpstreet.jpg')\n    diffimage -= diffimage.min()\n    diffimage /= diffimage.max()\n    diffimage = (1 - diffimage) * 255\n    Image.fromarray(diffimage.astype(np.uint8)).save('diffstreet.jpg')\n    kernel.filter\n\n\nif __name__ == \"__main__\":\n    main()\n", "line": 23, "source_path": "/Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/4.py", "col": 4}'
+2018-05-22 22:41:02,887 - INFO - Starting new HTTP connection (1): 127.0.0.1
+2018-05-22 22:41:02,986 - INFO - Received completion request
+2018-05-22 22:41:02,986 - DEBUG - Using filetype completion: True
+2018-05-22 22:41:02,987 - DEBUG - Making JediHTTP request: POST b'http://127.0.0.1:55297/completions' {u'content-type': u'application/json', u'x-jedihttp-hmac': '1Djs5DcQ6WtMI8P4fEOKfcgg3feYRoYZyJWXA0MGC80='} b'{"source": "import numpy as np\nimport PIL\nfrom matplotlib import pyplot as plt\nfrom PIL import Image\nfrom scipy import misc\n\nimport numba as nb\nfrom numba import f8, int64, jit\nfrom zytutil import timethis\nimport kernel\nimport zytutil\n\ndef main():\n    sharp_kernel = np.zeros((3, 3))\n    gauss_filter = np.ones((5, 5))\n    gauss_filter[1, 1] = 3\n    gauss_filter = gauss_filter / gauss_filter.sum()\n    sharp_kernel[1, 1] = -4\n    sharp_kernel[1, 0] = 1\n    sharp_kernel[1, 2] = 1\n    sharp_kernel[0, 1] = 1\n    sharp_kernel[2, 1] = 1\n    kerne\n\n    image = Image.open('test.jpg')\n    image = np.array(image.convert('L'))\n    Image.fromarray(image.astype(np.uint8)).save('street.jpg')\n    image = image / 255.0\n    # plt.subplot(121)\n    # plt.imshow(image, cmap='gray')\n    # plt.subplot(122)\n    newimage = kernel.filter(image, sharp_kernel)\n    newimage = np.clip(image - 2 * newimage, 0, 1)\n    diffimage = np.abs(newimage - image)\n    newimage *= 255\n    # plt.imshow(np.clip(image - newimage, 0, 1), cmap='gray')\n    Image.fromarray(newimage.astype(np.uint8)).save('sharpstreet.jpg')\n    diffimage -= diffimage.min()\n    diffimage /= diffimage.max()\n    diffimage = (1 - diffimage) * 255\n    Image.fromarray(diffimage.astype(np.uint8)).save('diffstreet.jpg')\n    kernel.filter\n\n\nif __name__ == \"__main__\":\n    main()\n", "line": 23, "source_path": "/Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/4.py", "col": 4}'
+2018-05-22 22:41:02,988 - INFO - Starting new HTTP connection (1): 127.0.0.1
+2018-05-22 22:41:03,116 - INFO - Received completion request
+2018-05-22 22:41:03,116 - DEBUG - Using filetype completion: True
+2018-05-22 22:41:03,117 - DEBUG - Making JediHTTP request: POST b'http://127.0.0.1:55297/completions' {u'content-type': u'application/json', u'x-jedihttp-hmac': '1K6ZijSlT9QXdTTjVASik60M6hUWvY1taVw80YbIfEk='} b'{"source": "import numpy as np\nimport PIL\nfrom matplotlib import pyplot as plt\nfrom PIL import Image\nfrom scipy import misc\n\nimport numba as nb\nfrom numba import f8, int64, jit\nfrom zytutil import timethis\nimport kernel\nimport zytutil\n\ndef main():\n    sharp_kernel = np.zeros((3, 3))\n    gauss_filter = np.ones((5, 5))\n    gauss_filter[1, 1] = 3\n    gauss_filter = gauss_filter / gauss_filter.sum()\n    sharp_kernel[1, 1] = -4\n    sharp_kernel[1, 0] = 1\n    sharp_kernel[1, 2] = 1\n    sharp_kernel[0, 1] = 1\n    sharp_kernel[2, 1] = 1\n    kernel\n\n    image = Image.open('test.jpg')\n    image = np.array(image.convert('L'))\n    Image.fromarray(image.astype(np.uint8)).save('street.jpg')\n    image = image / 255.0\n    # plt.subplot(121)\n    # plt.imshow(image, cmap='gray')\n    # plt.subplot(122)\n    newimage = kernel.filter(image, sharp_kernel)\n    newimage = np.clip(image - 2 * newimage, 0, 1)\n    diffimage = np.abs(newimage - image)\n    newimage *= 255\n    # plt.imshow(np.clip(image - newimage, 0, 1), cmap='gray')\n    Image.fromarray(newimage.astype(np.uint8)).save('sharpstreet.jpg')\n    diffimage -= diffimage.min()\n    diffimage /= diffimage.max()\n    diffimage = (1 - diffimage) * 255\n    Image.fromarray(diffimage.astype(np.uint8)).save('diffstreet.jpg')\n    kernel.filter\n\n\nif __name__ == \"__main__\":\n    main()\n", "line": 23, "source_path": "/Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/4.py", "col": 4}'
+2018-05-22 22:41:03,118 - INFO - Starting new HTTP connection (1): 127.0.0.1
+2018-05-22 22:41:03,230 - DEBUG - "POST /completions HTTP/1.1" 200 110727
+2018-05-22 22:41:03,309 - DEBUG - "POST /completions HTTP/1.1" 200 110727
+2018-05-22 22:41:03,389 - DEBUG - "POST /completions HTTP/1.1" 200 110727
+2018-05-22 22:41:03,459 - DEBUG - "POST /completions HTTP/1.1" 200 110727
+2018-05-22 22:41:03,510 - INFO - Received event notification
+2018-05-22 22:41:03,510 - DEBUG - Event name: CurrentIdentifierFinished
+2018-05-22 22:41:03,511 - INFO - Adding ONE buffer identifier for file: /Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/4.py
+2018-05-22 22:41:03,515 - INFO - Received completion request
+2018-05-22 22:41:03,516 - DEBUG - Using filetype completion: True
+2018-05-22 22:41:03,516 - DEBUG - Making JediHTTP request: POST b'http://127.0.0.1:55297/completions' {u'content-type': u'application/json', u'x-jedihttp-hmac': 'mix+vIlnZyBdWYvzxPkZtVRuFgEBbxJHI3IEQQX9e68='} b'{"source": "import numpy as np\nimport PIL\nfrom matplotlib import pyplot as plt\nfrom PIL import Image\nfrom scipy import misc\n\nimport numba as nb\nfrom numba import f8, int64, jit\nfrom zytutil import timethis\nimport kernel\nimport zytutil\n\ndef main():\n    sharp_kernel = np.zeros((3, 3))\n    gauss_filter = np.ones((5, 5))\n    gauss_filter[1, 1] = 3\n    gauss_filter = gauss_filter / gauss_filter.sum()\n    sharp_kernel[1, 1] = -4\n    sharp_kernel[1, 0] = 1\n    sharp_kernel[1, 2] = 1\n    sharp_kernel[0, 1] = 1\n    sharp_kernel[2, 1] = 1\n    kernel.\n\n    image = Image.open('test.jpg')\n    image = np.array(image.convert('L'))\n    Image.fromarray(image.astype(np.uint8)).save('street.jpg')\n    image = image / 255.0\n    # plt.subplot(121)\n    # plt.imshow(image, cmap='gray')\n    # plt.subplot(122)\n    newimage = kernel.filter(image, sharp_kernel)\n    newimage = np.clip(image - 2 * newimage, 0, 1)\n    diffimage = np.abs(newimage - image)\n    newimage *= 255\n    # plt.imshow(np.clip(image - newimage, 0, 1), cmap='gray')\n    Image.fromarray(newimage.astype(np.uint8)).save('sharpstreet.jpg')\n    diffimage -= diffimage.min()\n    diffimage /= diffimage.max()\n    diffimage = (1 - diffimage) * 255\n    Image.fromarray(diffimage.astype(np.uint8)).save('diffstreet.jpg')\n    kernel.filter\n\n\nif __name__ == \"__main__\":\n    main()\n", "line": 23, "source_path": "/Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/4.py", "col": 11}'
+2018-05-22 22:41:03,518 - INFO - Starting new HTTP connection (1): 127.0.0.1
+2018-05-22 22:41:03,595 - DEBUG - "POST /completions HTTP/1.1" 200 110727
+2018-05-22 22:41:03,660 - DEBUG - "POST /completions HTTP/1.1" 500 23558
+2018-05-22 22:41:03,664 - ERROR - Exception from semantic completer (using general): Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 103, in GetCompletions
+    .ComputeCandidates( request_data ) )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/completer.py", line 229, in ComputeCandidates
+    candidates = self._GetCandidatesFromSubclass( request_data )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/completer.py", line 240, in _GetCandidatesFromSubclass
+    raw_completions = self.ComputeCandidatesInner( request_data )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/python/jedi_completer.py", line 275, in ComputeCandidatesInner
+    for completion in self._JediCompletions( request_data ) ]
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/python/jedi_completer.py", line 280, in _JediCompletions
+    request_data )[ 'completions' ]
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/python/jedi_completer.py", line 218, in _GetResponse
+    response.raise_for_status()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/models.py", line 840, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 500 Server Error: Internal Server Error for url: http://127.0.0.1:55297/completions
+
+2018-05-22 22:41:03,813 - INFO - Received completion request
+2018-05-22 22:41:03,814 - DEBUG - Using filetype completion: True
+2018-05-22 22:41:03,815 - DEBUG - Making JediHTTP request: POST b'http://127.0.0.1:55297/completions' {u'content-type': u'application/json', u'x-jedihttp-hmac': 'd0xjXQ2lTIGi8LK2GVsyTOXaxdNX6LrK365PsrElPts='} b'{"source": "import numpy as np\nimport PIL\nfrom matplotlib import pyplot as plt\nfrom PIL import Image\nfrom scipy import misc\n\nimport numba as nb\nfrom numba import f8, int64, jit\nfrom zytutil import timethis\nimport kernel\nimport zytutil\n\ndef main():\n    sharp_kernel = np.zeros((3, 3))\n    gauss_filter = np.ones((5, 5))\n    gauss_filter[1, 1] = 3\n    gauss_filter = gauss_filter / gauss_filter.sum()\n    sharp_kernel[1, 1] = -4\n    sharp_kernel[1, 0] = 1\n    sharp_kernel[1, 2] = 1\n    sharp_kernel[0, 1] = 1\n    sharp_kernel[2, 1] = 1\n    kernel.f\n\n    image = Image.open('test.jpg')\n    image = np.array(image.convert('L'))\n    Image.fromarray(image.astype(np.uint8)).save('street.jpg')\n    image = image / 255.0\n    # plt.subplot(121)\n    # plt.imshow(image, cmap='gray')\n    # plt.subplot(122)\n    newimage = kernel.filter(image, sharp_kernel)\n    newimage = np.clip(image - 2 * newimage, 0, 1)\n    diffimage = np.abs(newimage - image)\n    newimage *= 255\n    # plt.imshow(np.clip(image - newimage, 0, 1), cmap='gray')\n    Image.fromarray(newimage.astype(np.uint8)).save('sharpstreet.jpg')\n    diffimage -= diffimage.min()\n    diffimage /= diffimage.max()\n    diffimage = (1 - diffimage) * 255\n    Image.fromarray(diffimage.astype(np.uint8)).save('diffstreet.jpg')\n    kernel.filter\n\n\nif __name__ == \"__main__\":\n    main()\n", "line": 23, "source_path": "/Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/4.py", "col": 11}'
+2018-05-22 22:41:03,816 - INFO - Starting new HTTP connection (1): 127.0.0.1
+2018-05-22 22:41:03,862 - DEBUG - "POST /completions HTTP/1.1" 500 23558
+2018-05-22 22:41:03,863 - ERROR - Exception from semantic completer (using general): Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 103, in GetCompletions
+    .ComputeCandidates( request_data ) )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/completer.py", line 229, in ComputeCandidates
+    candidates = self._GetCandidatesFromSubclass( request_data )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/completer.py", line 240, in _GetCandidatesFromSubclass
+    raw_completions = self.ComputeCandidatesInner( request_data )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/python/jedi_completer.py", line 275, in ComputeCandidatesInner
+    for completion in self._JediCompletions( request_data ) ]
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/python/jedi_completer.py", line 280, in _JediCompletions
+    request_data )[ 'completions' ]
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/python/jedi_completer.py", line 218, in _GetResponse
+    response.raise_for_status()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/models.py", line 840, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 500 Server Error: Internal Server Error for url: http://127.0.0.1:55297/completions
+
+2018-05-22 22:41:03,948 - INFO - Received completion request
+2018-05-22 22:41:03,949 - DEBUG - Using filetype completion: True
+2018-05-22 22:41:03,950 - DEBUG - Making JediHTTP request: POST b'http://127.0.0.1:55297/completions' {u'content-type': u'application/json', u'x-jedihttp-hmac': 'psqfHzxpnzvA2vgWoEtjR6+Ue7L4h3QUf7Ag57vZXnI='} b'{"source": "import numpy as np\nimport PIL\nfrom matplotlib import pyplot as plt\nfrom PIL import Image\nfrom scipy import misc\n\nimport numba as nb\nfrom numba import f8, int64, jit\nfrom zytutil import timethis\nimport kernel\nimport zytutil\n\ndef main():\n    sharp_kernel = np.zeros((3, 3))\n    gauss_filter = np.ones((5, 5))\n    gauss_filter[1, 1] = 3\n    gauss_filter = gauss_filter / gauss_filter.sum()\n    sharp_kernel[1, 1] = -4\n    sharp_kernel[1, 0] = 1\n    sharp_kernel[1, 2] = 1\n    sharp_kernel[0, 1] = 1\n    sharp_kernel[2, 1] = 1\n    kernel.fi\n\n    image = Image.open('test.jpg')\n    image = np.array(image.convert('L'))\n    Image.fromarray(image.astype(np.uint8)).save('street.jpg')\n    image = image / 255.0\n    # plt.subplot(121)\n    # plt.imshow(image, cmap='gray')\n    # plt.subplot(122)\n    newimage = kernel.filter(image, sharp_kernel)\n    newimage = np.clip(image - 2 * newimage, 0, 1)\n    diffimage = np.abs(newimage - image)\n    newimage *= 255\n    # plt.imshow(np.clip(image - newimage, 0, 1), cmap='gray')\n    Image.fromarray(newimage.astype(np.uint8)).save('sharpstreet.jpg')\n    diffimage -= diffimage.min()\n    diffimage /= diffimage.max()\n    diffimage = (1 - diffimage) * 255\n    Image.fromarray(diffimage.astype(np.uint8)).save('diffstreet.jpg')\n    kernel.filter\n\n\nif __name__ == \"__main__\":\n    main()\n", "line": 23, "source_path": "/Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/4.py", "col": 11}'
+2018-05-22 22:41:03,951 - INFO - Starting new HTTP connection (1): 127.0.0.1
+2018-05-22 22:41:03,997 - DEBUG - "POST /completions HTTP/1.1" 500 23558
+2018-05-22 22:41:03,998 - ERROR - Exception from semantic completer (using general): Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 103, in GetCompletions
+    .ComputeCandidates( request_data ) )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/completer.py", line 229, in ComputeCandidates
+    candidates = self._GetCandidatesFromSubclass( request_data )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/completer.py", line 240, in _GetCandidatesFromSubclass
+    raw_completions = self.ComputeCandidatesInner( request_data )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/python/jedi_completer.py", line 275, in ComputeCandidatesInner
+    for completion in self._JediCompletions( request_data ) ]
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/python/jedi_completer.py", line 280, in _JediCompletions
+    request_data )[ 'completions' ]
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/completers/python/jedi_completer.py", line 218, in _GetResponse
+    response.raise_for_status()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/models.py", line 840, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 500 Server Error: Internal Server Error for url: http://127.0.0.1:55297/completions
+
+2018-05-22 22:41:05,575 - INFO - Received event notification
+2018-05-22 22:41:05,575 - DEBUG - Event name: FileReadyToParse
+2018-05-22 22:41:05,575 - INFO - Adding buffer identifiers for file: /Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/4.py
+2018-05-22 22:41:05,580 - INFO - Received event notification
+2018-05-22 22:41:05,580 - DEBUG - Event name: InsertLeave
+2018-05-22 22:41:05,581 - INFO - Adding ONE buffer identifier for file: /Users/zhangyiteng/Documents/course/DataVisualization/homework/imageprocess/4.py
+2018-05-22 22:41:09,542 - INFO - Received debug info request
+2018-05-22 22:41:36,602 - INFO - Received debug info request
+2018-05-22 22:41:36,603 - ERROR - No semantic completer exists for filetypes: [u'']
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 238, in DebugInfo
+    request_data ).DebugInfo( request_data )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 302, in _GetCompleterForRequestData
+    return _server_state.GetFiletypeCompleter( request_data[ 'filetypes' ] )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/server_state.py", line 89, in GetFiletypeCompleter
+    current_filetypes ) )
+ValueError: No semantic completer exists for filetypes: [u'']
+2018-05-22 22:41:42,445 - INFO - Received debug info request
+2018-05-22 22:41:42,446 - ERROR - No semantic completer exists for filetypes: [u'']
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 238, in DebugInfo
+    request_data ).DebugInfo( request_data )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 302, in _GetCompleterForRequestData
+    return _server_state.GetFiletypeCompleter( request_data[ 'filetypes' ] )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/server_state.py", line 89, in GetFiletypeCompleter
+    current_filetypes ) )
+ValueError: No semantic completer exists for filetypes: [u'']
+2018-05-22 22:44:16,417 - INFO - Received debug info request
+2018-05-22 22:44:16,423 - ERROR - No semantic completer exists for filetypes: [u'']
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 238, in DebugInfo
+    request_data ).DebugInfo( request_data )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 302, in _GetCompleterForRequestData
+    return _server_state.GetFiletypeCompleter( request_data[ 'filetypes' ] )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/server_state.py", line 89, in GetFiletypeCompleter
+    current_filetypes ) )
+ValueError: No semantic completer exists for filetypes: [u'']
+2018-05-22 22:44:28,958 - INFO - Received debug info request
+2018-05-22 22:46:39,637 - INFO - Received debug info request
+2018-05-22 22:46:39,640 - ERROR - No semantic completer exists for filetypes: [u'']
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 238, in DebugInfo
+    request_data ).DebugInfo( request_data )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 302, in _GetCompleterForRequestData
+    return _server_state.GetFiletypeCompleter( request_data[ 'filetypes' ] )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/server_state.py", line 89, in GetFiletypeCompleter
+    current_filetypes ) )
+ValueError: No semantic completer exists for filetypes: [u'']
+2018-05-22 22:47:45,712 - INFO - Received debug info request
+2018-05-22 22:47:45,721 - ERROR - No semantic completer exists for filetypes: [u'']
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 238, in DebugInfo
+    request_data ).DebugInfo( request_data )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/handlers.py", line 302, in _GetCompleterForRequestData
+    return _server_state.GetFiletypeCompleter( request_data[ 'filetypes' ] )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/ycmd/../ycmd/server_state.py", line 89, in GetFiletypeCompleter
+    current_filetypes ) )
+ValueError: No semantic completer exists for filetypes: [u'']
