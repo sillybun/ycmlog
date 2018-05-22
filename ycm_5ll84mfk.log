@@ -1,0 +1,387 @@
+2018-05-22 23:16:06,868 - ERROR - Unable to connect to server
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 137, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/connection.py", line 91, in create_connection
+    raise err
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/connection.py", line 81, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 559, in urlopen
+    body=body, headers=headers)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 353, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 162, in connect
+    conn = self._new_conn()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 146, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+requests.packages.urllib3.exceptions.NewConnectionError: <requests.packages.urllib3.connection.HTTPConnection object at 0x106366a58>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/adapters.py", line 376, in send
+    timeout=timeout
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 609, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/retry.py", line 273, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+requests.packages.urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=59633): Max retries exceeded with url: /ready (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x106366a58>: Failed to establish a new connection: [Errno 61] Connection refused',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/base_request.py", line 79, in HandleFuture
+    return _JsonFromFuture( future )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/base_request.py", line 239, in _JsonFromFuture
+    response = future.result()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/pythonfutures/concurrent/futures/_base.py", line 404, in result
+    return self.__get_result()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/pythonfutures/concurrent/futures/_base.py", line 356, in __get_result
+    raise self._exception
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/unsafe_thread_pool_executor.py", line 43, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/sessions.py", line 468, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/adapters.py", line 437, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=59633): Max retries exceeded with url: /ready (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x106366a58>: Failed to establish a new connection: [Errno 61] Connection refused',))
+2018-05-22 23:16:06,998 - ERROR - Unable to connect to server
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 137, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/connection.py", line 91, in create_connection
+    raise err
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/connection.py", line 81, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 559, in urlopen
+    body=body, headers=headers)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 353, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 162, in connect
+    conn = self._new_conn()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 146, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+requests.packages.urllib3.exceptions.NewConnectionError: <requests.packages.urllib3.connection.HTTPConnection object at 0x106386ba8>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/adapters.py", line 376, in send
+    timeout=timeout
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 609, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/retry.py", line 273, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+requests.packages.urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=59633): Max retries exceeded with url: /ready (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x106386ba8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/base_request.py", line 79, in HandleFuture
+    return _JsonFromFuture( future )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/base_request.py", line 239, in _JsonFromFuture
+    response = future.result()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/pythonfutures/concurrent/futures/_base.py", line 404, in result
+    return self.__get_result()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/pythonfutures/concurrent/futures/_base.py", line 356, in __get_result
+    raise self._exception
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/unsafe_thread_pool_executor.py", line 43, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/sessions.py", line 468, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/adapters.py", line 437, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=59633): Max retries exceeded with url: /ready (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x106386ba8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+2018-05-22 23:16:07,106 - ERROR - Unable to connect to server
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 137, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/connection.py", line 91, in create_connection
+    raise err
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/connection.py", line 81, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 559, in urlopen
+    body=body, headers=headers)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 353, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 162, in connect
+    conn = self._new_conn()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 146, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+requests.packages.urllib3.exceptions.NewConnectionError: <requests.packages.urllib3.connection.HTTPConnection object at 0x1063f0048>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/adapters.py", line 376, in send
+    timeout=timeout
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 609, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/retry.py", line 273, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+requests.packages.urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=59633): Max retries exceeded with url: /ready (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x1063f0048>: Failed to establish a new connection: [Errno 61] Connection refused',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/base_request.py", line 79, in HandleFuture
+    return _JsonFromFuture( future )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/base_request.py", line 239, in _JsonFromFuture
+    response = future.result()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/pythonfutures/concurrent/futures/_base.py", line 404, in result
+    return self.__get_result()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/pythonfutures/concurrent/futures/_base.py", line 356, in __get_result
+    raise self._exception
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/unsafe_thread_pool_executor.py", line 43, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/sessions.py", line 468, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/adapters.py", line 437, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=59633): Max retries exceeded with url: /ready (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x1063f0048>: Failed to establish a new connection: [Errno 61] Connection refused',))
+2018-05-22 23:16:07,208 - ERROR - Unable to connect to server
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 137, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/connection.py", line 91, in create_connection
+    raise err
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/connection.py", line 81, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 559, in urlopen
+    body=body, headers=headers)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 353, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 162, in connect
+    conn = self._new_conn()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 146, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+requests.packages.urllib3.exceptions.NewConnectionError: <requests.packages.urllib3.connection.HTTPConnection object at 0x1063f05f8>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/adapters.py", line 376, in send
+    timeout=timeout
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 609, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/retry.py", line 273, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+requests.packages.urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=59633): Max retries exceeded with url: /ready (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x1063f05f8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/base_request.py", line 79, in HandleFuture
+    return _JsonFromFuture( future )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/base_request.py", line 239, in _JsonFromFuture
+    response = future.result()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/pythonfutures/concurrent/futures/_base.py", line 404, in result
+    return self.__get_result()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/pythonfutures/concurrent/futures/_base.py", line 356, in __get_result
+    raise self._exception
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/unsafe_thread_pool_executor.py", line 43, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/sessions.py", line 468, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/adapters.py", line 437, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=59633): Max retries exceeded with url: /ready (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x1063f05f8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+2018-05-22 23:16:07,314 - ERROR - Unable to connect to server
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 137, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/connection.py", line 91, in create_connection
+    raise err
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/connection.py", line 81, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 559, in urlopen
+    body=body, headers=headers)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 353, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 162, in connect
+    conn = self._new_conn()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 146, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+requests.packages.urllib3.exceptions.NewConnectionError: <requests.packages.urllib3.connection.HTTPConnection object at 0x1063f0b00>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/adapters.py", line 376, in send
+    timeout=timeout
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 609, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/retry.py", line 273, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+requests.packages.urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=59633): Max retries exceeded with url: /ready (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x1063f0b00>: Failed to establish a new connection: [Errno 61] Connection refused',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/base_request.py", line 79, in HandleFuture
+    return _JsonFromFuture( future )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/base_request.py", line 239, in _JsonFromFuture
+    response = future.result()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/pythonfutures/concurrent/futures/_base.py", line 404, in result
+    return self.__get_result()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/pythonfutures/concurrent/futures/_base.py", line 356, in __get_result
+    raise self._exception
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/unsafe_thread_pool_executor.py", line 43, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/sessions.py", line 468, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/adapters.py", line 437, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=59633): Max retries exceeded with url: /ready (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x1063f0b00>: Failed to establish a new connection: [Errno 61] Connection refused',))
+2018-05-22 23:16:07,417 - ERROR - Unable to connect to server
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 137, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/connection.py", line 91, in create_connection
+    raise err
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/connection.py", line 81, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 559, in urlopen
+    body=body, headers=headers)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 353, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 162, in connect
+    conn = self._new_conn()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connection.py", line 146, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+requests.packages.urllib3.exceptions.NewConnectionError: <requests.packages.urllib3.connection.HTTPConnection object at 0x1063f0da0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/adapters.py", line 376, in send
+    timeout=timeout
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/connectionpool.py", line 609, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/packages/urllib3/util/retry.py", line 273, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+requests.packages.urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=59633): Max retries exceeded with url: /ready (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x1063f0da0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/base_request.py", line 79, in HandleFuture
+    return _JsonFromFuture( future )
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/client/base_request.py", line 239, in _JsonFromFuture
+    response = future.result()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/pythonfutures/concurrent/futures/_base.py", line 404, in result
+    return self.__get_result()
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/pythonfutures/concurrent/futures/_base.py", line 356, in __get_result
+    raise self._exception
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/autoload/../python/ycm/unsafe_thread_pool_executor.py", line 43, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/sessions.py", line 468, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/zhangyiteng/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/requests/requests/adapters.py", line 437, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=59633): Max retries exceeded with url: /ready (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x1063f0da0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+2018-05-22 23:16:10,604 - ERROR - HTTPError: 500 Server Error: Internal Server Error for url: http://127.0.0.1:59643/completions
+2018-05-22 23:16:10,745 - ERROR - HTTPError: 500 Server Error: Internal Server Error for url: http://127.0.0.1:59643/completions
+2018-05-22 23:16:10,926 - ERROR - HTTPError: 500 Server Error: Internal Server Error for url: http://127.0.0.1:59643/completions
